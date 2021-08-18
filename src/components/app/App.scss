@@ -1,0 +1,39 @@
+@import url('../../styles/common.css');
+
+hr {
+  border: none;
+  border-top: var(--bdr-common);
+  opacity: 0.5;
+}
+
+#root > hr {
+  border: none;
+  opacity: 1;
+  border-top: 5px double var(--clr-text);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+
+  input {
+    height: 1.5rem;
+  }
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+
+  a {
+    text-decoration: none;
+    color: black;
+    color: var(--clr-text-link);
+  }
+}

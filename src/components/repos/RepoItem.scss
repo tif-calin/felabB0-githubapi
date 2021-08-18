@@ -1,0 +1,31 @@
+
+.RepoItem {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  &> span {
+    opacity: 0.5;
+    font-size: 0.7rem;
+    font-weight: 900;
+    border: var(--bdr-common);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    cursor: help;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &> div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

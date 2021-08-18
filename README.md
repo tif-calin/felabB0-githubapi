@@ -1,20 +1,22 @@
 # felabB0-githubapi
 
 ### goals
- - [ ] input a username
- - [ ] display user info
- - [ ] display a list of repos by user
+ - [x] input a username
+ - [x] display user info
+ - [x] display a list of repos by user
  - [ ] *display all PRs on repos
     - filter only open/closed 
  - [ ] display all issues on repos
     - filter only open/closed 
+ - [ ] save/load previous user from localstorage
+ - [ ] testing testing testing 
 
 ### rubric
- - [ ] (6 pts) components
- - [ ] (3 pts) username state
- - [ ] (4 pts) user detail state
- - [ ] (4 pts) repos state
- - [ ] (3 pts) services
+ - [x] (6 pts) components
+ - [x] (3 pts) username state
+ - [x] (4 pts) user detail state
+ - [x] (4 pts) repos state
+ - [x] (3 pts) services
 
 ## useful links
  - [api](https://docs.github.com/en/rest)

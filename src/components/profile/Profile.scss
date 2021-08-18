@@ -1,0 +1,36 @@
+
+.Profile {
+  display: grid;
+  grid-template-areas: 
+    "a b" 
+    "c c"
+  ;
+  grid-template-rows: 1fr auto;
+
+  &> *:last-child { 
+    grid-area: c;
+    margin-top: 1rem;
+  }
+
+  div {
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: var(--clr-text-weakest);
+    font-weight: 100;
+    opacity: 0.75;
+
+    &:hover { opacity: 1 };
+
+    span > span {
+      color: var(--clr-text);
+      font-weight: normal;
+    }
+  }
+
+  h3:first-child a {
+    color: var(--clr-text-link);
+    text-decoration: none;
+  }
+}
