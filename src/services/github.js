@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-const API = 'https://api.github.com/users'
+const API = 'https://api.github.com/users';
 
 const fetchUser = async username => {
   return await fetch(`${API}/${username}`)
