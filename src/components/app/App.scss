@@ -1,0 +1,27 @@
+@import url('../../styles/common.css');
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+
+  input {
+    height: 1.5rem;
+  }
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+
+  a {
+    text-decoration: none;
+    color: black;
+    color: var(--clr-text-link);
+  }
+}
