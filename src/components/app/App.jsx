@@ -21,12 +21,17 @@ export default function App() {
       </form>
     </header>
 
+    <hr/>
+
     <main>
       {loading ? <span>loading...</span> : <>
         <Profile profile={profile}/>
+        <hr/>
         <RepoList repos={repos}/>
       </>}
     </main>
+    
+    <hr/>
 
     <footer><a 
       href="https://github.com/tif-calin/felabB0-githubapi"
