@@ -10,6 +10,9 @@
     - filter only open/closed 
  - [ ] save/load previous user from localstorage
  - [ ] testing testing testing 
+ - [ ] paging
+ - [ ] sort by abc, date, or size
+ - [ ] get username from url query params
 
 ### rubric
  - [x] (6 pts) components
