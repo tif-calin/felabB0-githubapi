@@ -8,8 +8,8 @@ const fetchUser = async username => {
   ;
 };
 
-const fetchUserRepos = async username => {
-  return await fetch(`${API}/${username}/repos`)
+const fetchUserRepos = async (username, page = 1) => {
+  return await fetch(`${API}/${username}/repos?page=${page}&per_page=100`)
     .then(resp => resp.json())
     .catch(err => console.error(err))
   ;
