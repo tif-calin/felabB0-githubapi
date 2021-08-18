@@ -7,6 +7,10 @@ const RepoList = ({ repos }) => {
   
   return <>
     <ul className="RepoList">
+      <div>
+        <span>repo</span>
+        <span>size</span>
+      </div>
       {repos.map(repo => <RepoItem key={repo.id} repo={repo} />)}
     </ul>
   </>;

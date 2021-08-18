@@ -5,4 +5,12 @@
   flex-direction: column;
   align-items: center;
   gap: 0.25rem;
+
+  > div:first-child {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--clr-text-stronger);
+    font-weight: 700;
+  }
 }

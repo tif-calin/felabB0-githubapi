@@ -11,6 +11,7 @@ const RepoItem = ({ repo }) => {
       >i</span>
       <div>
         <span>{repo.name}</span>
+        <span>{repo.size}</span>
       </div>
     </li>
   </>;
