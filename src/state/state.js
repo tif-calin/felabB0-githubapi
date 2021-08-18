@@ -9,7 +9,7 @@ const useGitHub = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetchUser(username)
+    if (username) fetchUser(username)
       .then(profile => setProfile(profile))
       .then(() => fetchUserRepos(username))
       .then(repos => setRepos(repos))
